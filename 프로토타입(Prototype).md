@@ -37,3 +37,17 @@ __proto__ 프로퍼티는 모든 객체가 가지고 있는 속성이며 객체�
 ~~~
   <img width="957" alt="스크린샷 2021-10-19 오후 8 51 30" src="https://user-images.githubusercontent.com/36693355/137903932-9902c37d-cf63-422b-a3f3-0ee3fae6da5f.png">
 
+
+~~~javascript
+//create 를 통해 새로운 객체를 할당 가능합니다. 
+//getPropertyOf 를 통해 __proto__ 값을 리턴 받을 수 있습니다. 
+//setPrototypeOf 를 통해 __proto__ 를 새로운 객체를 참조하도록 합니다.
+
+let animal = {
+  eats: true
+};
+let rabbit = Object.create(animal);
+alert(rabbit.eats); // true
+alert(Object.getPrototypeOf(rabbit) === animal); // true
+Object.setPrototypeOf(rabbit, {}); // rabbit의 프로토타입을 {}으로 바꿉니다.
+~~~
