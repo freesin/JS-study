@@ -1,4 +1,4 @@
-# 원시타입 VS 객체
+# 원시타입 VS 참조타입
 ~~~
 원시타입: number, string, symbol, undefined, boolean
 참조타입: 객체, 배열, 클래스, 함수 ...
