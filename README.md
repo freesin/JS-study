@@ -14,3 +14,9 @@ Javscript &amp;&amp; React.JS study
 
 
 # Web study
+[1.Restful api]
+
+[2.리액트의 공통컴포넌트]
+<!-- https://kyounghwan01.github.io/blog/React/common-component/#header -->
+
+[3.디바운스와 스로틀링)
