@@ -5,7 +5,7 @@ Javscript &amp;&amp; React.JS study
 
 [2.원시타입, 참조타입 그리고 불변성](https://github.com/KoGaYoung/JS-study/blob/main/%EC%9B%90%EC%8B%9C%ED%83%80%EC%9E%85_%EC%B0%B8%EC%A1%B0%ED%83%80%EC%9E%85%EA%B3%BC%20%EB%B6%88%EB%B3%80%EC%84%B1(Immutable).md)
 
-[3.자바스크립트의 컨택스트]
+[3.실행컨택스트와 콜스택](https://github.com/KoGaYoung/JS-study/new/main)
 
 [4.호이스팅과 활용](https://github.com/KoGaYoung/JS-study/blob/main/%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85(hoisting).md)
 
