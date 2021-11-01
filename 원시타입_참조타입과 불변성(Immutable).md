@@ -20,9 +20,9 @@ a.push(2)
 ~~~javascript
 import { Map, List, is, fromJS } from 'immutable'; // 라이브러리 임포트
 ~~~
+# Immutable에서 가장 많이 사용하는 get, getIn, set, setIn 예제
 ~~~
 immutable.js는 collection 추상클래스를 참조한다.
-아래는 가장 많이 사용하는 GET, GETIN, SET, SETIN 예제이다.
 ~~~
 ~~~ javascript
 // getIn 은 key 값을 Iterable 로 받아 값을 접근
@@ -36,6 +36,8 @@ collection.setIn(['key1', 'key2'], 'value');
 collection.update('key', (value) => value);
 collection.updateIn(['key1', 'key2'], (value) => value);
 ~~~
+
+# 실제 소스에 immutable.js 적용
 ~~~
 개발하면서 주로 json형태의 리스트를 다루는데, 객체는 immutable로 관리하는게 좋다.
 이유는 리액트의 가상돔은 변화를 계산하는데 얕은복사를 하여 계산한다.
