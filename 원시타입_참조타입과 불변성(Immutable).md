@@ -15,15 +15,14 @@ a.push(2)
 # Immutable 쓰는 이유
 ~~~
 객체의 불변성을 지키기 위함
-이뮤터블하게 관리할 경우에는 수정이 불가능한(불변)객체를 만들어 추가, 수정, 삭제 시마다 새로운 객체를 반환하도록 한다.
-아래와 같이 사용한다.
+수정이 불가능한(불변)객체를 만들어 추가, 수정, 삭제 시마다 새로운 객체를 반환하도록 한다.
 ~~~
 ~~~javascript
 import { Map, List, is, fromJS } from 'immutable'; // 라이브러리 임포트
 ~~~
 ~~~
 immutable.js는 collection 추상클래스를 참조한다.
-가장 많이 사용하는 GET, GETIN, SET, SETIN 예제이다.
+아래는 가장 많이 사용하는 GET, GETIN, SET, SETIN 예제이다.
 ~~~
 ~~~ javascript
 // getIn 은 key 값을 Iterable 로 받아 값을 접근
@@ -37,7 +36,6 @@ collection.setIn(['key1', 'key2'], 'value');
 collection.update('key', (value) => value);
 collection.updateIn(['key1', 'key2'], (value) => value);
 ~~~
-
 ~~~
 개발하면서 주로 json형태의 리스트를 다루는데, 객체는 immutable로 관리하는게 좋다.
 이유는 리액트의 가상돔은 변화를 계산하는데 얕은복사를 하여 계산한다.
@@ -45,7 +43,13 @@ collection.updateIn(['key1', 'key2'], (value) => value);
 연관된 컴포넌트들이 리랜더링 혹은 원치않는 동작이 일어날 수 있다. (+ 이런걸 어느정도 방지하기 위해 기능별로 컴포넌트 영역을 잘 나눠야함)
 
 자 그럼 이뮤터블하게 개발 안하면 못하나? 그건아니다.
-Object.assign등으로 객체를 복사해서 원형에 영향을 미치지 않게 할 수 있는데, 공수가 많이 들 뿐더러 얘도 딥카피는 아니고 스왈로카피라 한계가 존재한다. (+성능상 이슈도 존재)
+Object.assign등으로 객체를 복사해서 원형에 영향을 미치지 않게 할 수 있는데,
+공수가 많이 들 뿐더러 얘도 딥카피는 아니고 스왈로카피라 한계가 존재한다. (+성능상 이슈도 존재)
+
++ immutable 없이는 어떻게 하면 불변성을 지킬 수 있는지.
+1) 위의 내용처럼 Object.assign으로 객체 복사하여 조작
+2) map, fillter, concat 등 itrator 함수를 활용하여 새로운 객체나 배열을 반환
+3) spread(...)를 활용하여 바꾸고싶은 값만 바꿔주기
 ~~~
 ~~~
 함수형 프로그래밍에서는 값을 항상 불변 상태를 유지한다.
