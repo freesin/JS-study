@@ -20,3 +20,5 @@ Javscript &amp;&amp; React.JS study
 <!-- https://kyounghwan01.github.io/blog/React/common-component/#header -->
 
 [3.디바운스와 스로틀링)
+
+[4.브라우저라우터와 해시라우터](https://github.com/KoGaYoung/JS-study/blob/main/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95%EB%9D%BC%EC%9A%B0%ED%84%B0%EC%99%80%20%ED%95%B4%EC%8B%9C%EB%9D%BC%EC%9A%B0%ED%84%B0.md)
