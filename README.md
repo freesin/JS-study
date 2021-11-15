@@ -9,19 +9,18 @@ Javscript &amp;&amp; React.JS study
 
 [4.호이스팅과 활용](https://github.com/KoGaYoung/JS-study/blob/main/%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85(hoisting).md)
 
-[5.클로저]
+[5.리덕스와 덕스패턴](https://github.com/KoGaYoung/JS-study/blob/main/%EB%A6%AC%EB%8D%95%EC%8A%A4%EC%99%80%20%EB%8D%95%EC%8A%A4%ED%8C%A8%ED%84%B4.md)
 
-[6.리덕스 라이브러리]()
+[6.클로저]
 
+[7. 디바운스와 스로틀링]
+
+[8.리액트의 공통컴포넌트]
+<!-- https://kyounghwan01.github.io/blog/React/common-component/#header -->
 
 # Web study
 [1.Restful api]
 
-[2.리액트의 공통컴포넌트]
-<!-- https://kyounghwan01.github.io/blog/React/common-component/#header -->
+[2.브라우저라우터와 해시라우터](https://github.com/KoGaYoung/JS-study/blob/main/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95%EB%9D%BC%EC%9A%B0%ED%84%B0%EC%99%80%20%ED%95%B4%EC%8B%9C%EB%9D%BC%EC%9A%B0%ED%84%B0.md)
 
-<!-- [3.디바운스와 스로틀링) -->
-
-[3.브라우저라우터와 해시라우터](https://github.com/KoGaYoung/JS-study/blob/main/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95%EB%9D%BC%EC%9A%B0%ED%84%B0%EC%99%80%20%ED%95%B4%EC%8B%9C%EB%9D%BC%EC%9A%B0%ED%84%B0.md)
-
-[4. 웹팩과 바벨]()
+[3. 웹팩과 바벨]()
