@@ -11,11 +11,13 @@ Javscript &amp;&amp; React.JS study
 
 [5.리덕스와 덕스패턴](https://github.com/KoGaYoung/JS-study/blob/main/%EB%A6%AC%EB%8D%95%EC%8A%A4%EC%99%80%20%EB%8D%95%EC%8A%A4%ED%8C%A8%ED%84%B4.md)
 
-[6.클로저]
+[6.빅인트]()
 
-[7. 디바운스와 스로틀링]
+[7.클로저]
 
-[8.리액트의 공통컴포넌트]
+[8. 디바운스와 스로틀링]
+
+[9.리액트의 공통컴포넌트]
 <!-- https://kyounghwan01.github.io/blog/React/common-component/#header -->
 
 # Web study
